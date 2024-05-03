@@ -71,6 +71,7 @@ def stream_row(input_file_name, address_tuple):
         # use socket enumerated types to configure our socket object
         # Set our address family to (IPV4) for 'internet'
         # Set our socket type to UDP (datagram)
+        
         ADDRESS_FAMILY = socket.AF_INET 
         SOCKET_TYPE = socket.SOCK_DGRAM 
 
@@ -99,4 +100,3 @@ if __name__ == "__main__":
         logging.info("===============================================")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
-

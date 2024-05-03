@@ -1,5 +1,8 @@
 # streaming-01-getting-started
 
+Student: Inga Miller
+Class: 44-671 Streaming Dat
+
 > Get started with Python for streaming analytics
 
 We assume no prior programming experience and that you want to 
@@ -46,8 +49,8 @@ Important:
 
 ```shell
 git --version
-git config user.name
-git config user.email
+git config Inga Miller
+git config s566319@nwmissouri.edu
 python --version
 python -m pip install --upgrade pip wheel
 ```
