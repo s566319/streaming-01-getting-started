@@ -12,12 +12,6 @@ You should have these downloaded and installed on your machine:
 1. VS Code Extension: Python
 1. Git (configured with user.name and user.email - the same email you use for GitHub)
 
-Remember:
-
-- **Spacing, Spelling, Capitalization**: When programming, these are critical. Always double-check!
-
----
-
 ## Open Project Folder in VS Code
 
 In VS Code, open just your project repository folder, e.g. Documents/streaming-01-getting-started.
@@ -29,12 +23,6 @@ In VS Code, open a terminal window (View / Terminal) and verify your software is
 - If Mac/Linux, the default terminal should work.
 - If Windows, be sure you're using a PowerShell terminal (rather than cmd).
 
-Important: 
-
-- In Windows, you might try `py` instead of `python`, `python3` sometimes works for me
-- Type each command rather than copy & paste for best results. 
-- Wait for each command to complete before running the next command.
-
 ```shell
 git --version
 git config Inga Miller
@@ -42,11 +30,6 @@ git config s566319@nwmissouri.edu
 python --version
 python -m pip install --upgrade pip wheel
 ```
-
-✔️ Make sure all commands complete successfully. 
-If not, post your screenshots and the text of the error message in the discussion.
-They all must run successfully before continuing.
-
 ## Execute Utility Script (Diagnostics)
 
 With your repo folder open in VS Code:
@@ -61,30 +44,19 @@ Use the terminal and the python command to execute the Python script.
 
 1. Use your VS Code terminal window from above or open a new terminal window (View / Terminal) in VS Code.
 
-✔️ Make sure your script runs successfully. 
-If not, post your screenshots and the text of the error message in the discussion.
-This script must run successfully before continuing. 
----
-
-
 ## Explore & Execute Project Scripts
 
 With our project repository folder open in VS Code, and having confirmed that we can execute a Python script successfully, it's time to explore. 
 
 Open, read, and run each project script (each file will have a .py extension) in order.
 
-You don't need to fully understand the code yet. 
-Instead, read the code and try to figure out what each file is doing.
+Read the code and try to figure out what each file is doing.
 
 When you finish, you'll have an idea of some things possible using just the Python standard library. 
 You'll have generated several new data files.
 The streaming process will run continuously for quite a while. 
 Read the comments in the file to learn how to stop the process.
 
-Important: 
-
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
 - Wait for each script to finish. Did you generate a new datafile? What is the name?
 
 ```shell
@@ -102,20 +74,6 @@ python process_batch_C.py
 ```shell
 python process_streaming_0.py
 ```
-
-✔️ Make sure your scripts complete successfully. 
-If not, post screenshots and the text of any error messages in the discussion.
----
-
-## Update Edit README
-
-Edit this README.md file. It uses Markdown, a simple and easy markup language.
-
-- Keep the prerequisites and task headings. 
-- Within the task headings, record only the commands that worked on YOUR machine. 
-- Remove unnecessary instructions once you've mastered them.
-- Add any additional notes that will help you in the future.
-
 ## Sync to GitHub
 
 Now it's time to get the local work you did on your machine, 
@@ -134,16 +92,6 @@ Verify: Open a browser to your GitHub repo and verify the files have appeared.
 In addition to the original files, you should have one or more new files and an edited Markdown file. 
 If not, return to VS Code and edit/execute files as needed. 
 Then commit and push again.
-
-Common Issue: If your computer hangs because you forgot the commit message, 
-just enter your message in the top line of the file it shows in the editor.
-Then click the checkmark in the upper right to close that file and save your commit message.
-"Sync your changes" to push to GitHub. 
-
-✔️ Make sure your git add / commit / push completes successfully. 
-If not, post screenshots, error messages, and questions in the discussion.
-We've all been there when first learning Git and we can help. 
----
 
 ## Additional Resources
 
