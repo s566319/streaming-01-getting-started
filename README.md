@@ -1,18 +1,7 @@
 # streaming-01-getting-started
 
-Student: Inga Miller
-Class: 44-671 Streaming Dat
-
-> Get started with Python for streaming analytics
-
-We assume no prior programming experience and that you want to 
-get productive as quickly as possible.
-
-This project uses only content from the Python Standard Library. 
-No project virtual environment is required. 
-
-These are popular industry tools - we'll practice with them a lot. 
-Getting good at them helps you build better analytics projects more efficiently. 
+## Student: Inga Miller
+## Class: 44-671 Streaming Dat
 
 ## Prerequisites
 
@@ -42,8 +31,7 @@ In VS Code, open a terminal window (View / Terminal) and verify your software is
 
 Important: 
 
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
+- In Windows, you might try `py` instead of `python`, `python3` sometimes works for me
 - Type each command rather than copy & paste for best results. 
 - Wait for each command to complete before running the next command.
 
@@ -72,15 +60,6 @@ With your repo folder open in VS Code:
 Use the terminal and the python command to execute the Python script. 
 
 1. Use your VS Code terminal window from above or open a new terminal window (View / Terminal) in VS Code.
-
-Important: 
-
-- If Mac/Linux, change `python` to `python3` in the commands below.
-- In Windows, you might try `py` instead of `python`.
-
-```shell
-python util_about.py
-```
 
 ✔️ Make sure your script runs successfully. 
 If not, post your screenshots and the text of the error message in the discussion.
@@ -161,39 +140,10 @@ just enter your message in the top line of the file it shows in the editor.
 Then click the checkmark in the upper right to close that file and save your commit message.
 "Sync your changes" to push to GitHub. 
 
-### Option B: Use Git Bash or Terminal Commands (Easy as well):
-
-Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
-They will first add all the files (add "dot"). 
-Then they will commit the changes with a message. 
-Finally, they will push the changes up to GitHub.
-
-```
-git add .
-git commit -m "initial results"
-git push origin main
-```
-
-Open a browser and view your GitHub repository. 
-Verify your new files have been successfully pushed to GitHub. 
-
 ✔️ Make sure your git add / commit / push completes successfully. 
 If not, post screenshots, error messages, and questions in the discussion.
 We've all been there when first learning Git and we can help. 
 ---
-
-## General Recommendations and Troubleshooting
-
-The following are general recommendations and troubleshooting tips.
-
-### Issue: VS Code - No Source Control Icon
-
-Suggestion: If you're in VS Code, and you don't see the Source Control icon with a blue bubble, right-click on the sidebar icons, and make sure "Source Control" is checked.  
-
-### Issue: VS Code wants to install an extension
-
-If VS Code suggests an extension, it's often good to go ahead and try it. 
-Do a search on the extension to learn more. VS Code suggestions are usually helpful. 
 
 ## Additional Resources
 
